@@ -1,9 +1,9 @@
 from django.contrib import admin
-from .models.client import Client
-from .models.item import Item
-from .models.product import Product
-from .models.sale import Sale
-from .models.seller import Seller
+from sales.models.client import Client
+from sales.models.item import Item
+from sales.models.product import Product
+from sales.models.sale import Sale
+from sales.models.seller import Seller
 
 admin.site.register(Client)
 admin.site.register(Item)

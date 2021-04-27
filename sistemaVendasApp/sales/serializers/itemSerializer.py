@@ -21,4 +21,4 @@ class ItemPostSerializer(serializers.ModelSerializer):
   class Meta:
     model = Item
     fields = ('id', 'product', 'quantity', 'applied_comission')
-    read_only_fields = ('id',)
+    read_only_fields = ('id', 'applied_comission')

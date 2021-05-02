@@ -2,6 +2,10 @@
 
 Esse projeto representa um sistema de vendas para um estabelecimento qualquer
 
+O frontend para esta aplicação se encontra em:
+
+https://github.com/fmanechini/sistemaVendasFrontend
+
 O projeto foi desenvolvido utilizando Python, Django e Django Rest Framework com 
 banco de dados PostgreSQL. A configuração e preparação do Ambiente utiliza
 Docker e Docker Compose.
